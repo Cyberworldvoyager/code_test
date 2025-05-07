@@ -105,7 +105,6 @@ private:
 };
 
 int main(int argc, char* argv[]) {
-    cout<<12345<<endl;
     if (argc != 3) {
         std::cerr << "Usage: " << argv[0] << " input.csv output.csv\n";
         return 1;
